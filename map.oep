@@ -1,0 +1,23 @@
+<project>
+	<name>Arena TileMap</name>
+	
+	<settings>
+		<defaultWidth>832</defaultWidth>
+		<defaultHeight>608</defaultHeight>
+	</settings>
+	
+	<tilesets>
+		<tileset name="tiles" image="src/assets/tiles/wall1.png" tileHeight="32" tileWidth="32" />
+	</tilesets>
+	
+	<objects>
+		<object name="playerstart" image="src/assets/Characters/player_temp.png" height="32" width="32" limit="1" />
+		<object name="spawnpoint" image="src/assets/Characters/ghost.png" height="32" width="32" />
+	</objects>
+	
+	<layers>
+		<tiles name="OurTiles" gridSize="32" />
+		<objects name="objects" gridSize="32"/>
+	</layers>
+	
+</project>
