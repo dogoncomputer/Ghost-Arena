@@ -13,7 +13,7 @@ package
 	
 	public class Player extends Entity
 	{
-		[Embed(source = 'assets/Characters/ghost.png')] private const PLAYER_ICON:Class;
+		[Embed(source = 'assets/Characters/player_temp.png')] private const PLAYER_ICON:Class;
 		
 		private var move_speed:Point;
 		private var facing:int = 1; // 0 - LEFT, 1 - RIGHT
